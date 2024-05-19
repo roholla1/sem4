@@ -1,0 +1,9 @@
+5/19/24 8:19 PM, Exception was thrown: Simulated database connection error
+project.se.kth.iv1350.integration.DatabaseErrorException: Simulated database connection error
+	at project.se.kth.iv1350.integration.ItemRegistry.searchItemById(ItemRegistry.java:36)
+	at project.se.kth.iv1350.model.Sale.addItem(Sale.java:64)
+	at project.se.kth.iv1350.controller.Controller.registerItem(Controller.java:64)
+	at project.se.kth.iv1350.view.View.show(View.java:63)
+	at project.se.kth.iv1350.startup.Main.main(Main.java:18)
+
+
